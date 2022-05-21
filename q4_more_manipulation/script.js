@@ -1,0 +1,14 @@
+let Fheader = document.querySelector('h1');
+Fheader.style.color='green';
+let pay = document.querySelector('li.finished');
+pay.innerText = "Repay credit card debt";
+let urg = document.querySelector('li#urgent').style.border = "2px solid black";
+let  emp = document.querySelector('.emphasis');
+emp.style.textDecoration="underline";
+let pemp = document.querySelector('p.emphasis');
+pemp.style.backgroundColor='orange';
+pemp.style.fontSize='32px';
+pemp.style.lineHeight='24px';
+let todo = document.querySelector('li#urgent span.todo');
+todo.style.backgroundColor='yellow';
+document.querySelector('h2').innerHTML = "<span class ='greetings'>About Us</span>";
