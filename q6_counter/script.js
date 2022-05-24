@@ -2,7 +2,7 @@ let dec = document.querySelector('#decrement');
 let inc = document.querySelector('#increment');
 let res = document.querySelector('#reset');
 let box = document.querySelector('#box');
-let n = 0
+
 box.style.backgroundColor="green"
 
 inc.addEventListener('click', function(){
@@ -42,8 +42,8 @@ dec.addEventListener('click', function(){
 
 res.addEventListener('click', function(){
     box.innerHTML = 0
+    box.style.backgroundColor = 'green'
             
 })
-
 
 
